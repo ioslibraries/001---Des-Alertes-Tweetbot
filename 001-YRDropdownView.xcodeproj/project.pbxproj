@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3583D99C14F5A1E60034D72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3583D99B14F5A1E60034D72C /* UIKit.framework */; };
+		3583D99E14F5A1E60034D72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3583D99D14F5A1E60034D72C /* Foundation.framework */; };
+		3583D9A014F5A1E60034D72C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3583D99F14F5A1E60034D72C /* CoreGraphics.framework */; };
+		3583D9A614F5A1E60034D72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3583D9A414F5A1E60034D72C /* InfoPlist.strings */; };
+		3583D9A814F5A1E60034D72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583D9A714F5A1E60034D72C /* main.m */; };
+		3583D9AC14F5A1E60034D72C /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583D9AB14F5A1E60034D72C /* ILAppDelegate.m */; };
+		3583D9AF14F5A1E60034D72C /* ILViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583D9AE14F5A1E60034D72C /* ILViewController.m */; };
+		3583D9B214F5A1E60034D72C /* ILViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3583D9B014F5A1E60034D72C /* ILViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3583D99714F5A1E60034D72C /* 001-YRDropdownView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-YRDropdownView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3583D99B14F5A1E60034D72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3583D99D14F5A1E60034D72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3583D99F14F5A1E60034D72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3583D9A314F5A1E60034D72C /* 001-YRDropdownView-Info.plist */ = {isa = PBXFileReference; path = "001-YRDropdownView-Info.plist"; sourceTree = "<group>"; };
+		3583D9A514F5A1E60034D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3583D9A714F5A1E60034D72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3583D9A914F5A1E60034D72C /* 001-YRDropdownView-Prefix.pch */ = {isa = PBXFileReference; path = "001-YRDropdownView-Prefix.pch"; sourceTree = "<group>"; };
+		3583D9AA14F5A1E60034D72C /* ILAppDelegate.h */ = {isa = PBXFileReference; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		3583D9AB14F5A1E60034D72C /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+		3583D9AD14F5A1E60034D72C /* ILViewController.h */ = {isa = PBXFileReference; path = ILViewController.h; sourceTree = "<group>"; };
+		3583D9AE14F5A1E60034D72C /* ILViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILViewController.m; sourceTree = "<group>"; };
+		3583D9B114F5A1E60034D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ILViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3583D99414F5A1E60034D72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3583D99C14F5A1E60034D72C /* UIKit.framework in Frameworks */,
+				3583D99E14F5A1E60034D72C /* Foundation.framework in Frameworks */,
+				3583D9A014F5A1E60034D72C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3583D98C14F5A1E60034D72C = {
+			isa = PBXGroup;
+			children = (
+				3583D9A114F5A1E60034D72C /* 001-YRDropdownView */,
+				3583D99A14F5A1E60034D72C /* Frameworks */,
+				3583D99814F5A1E60034D72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3583D99814F5A1E60034D72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3583D99714F5A1E60034D72C /* 001-YRDropdownView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3583D99A14F5A1E60034D72C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3583D99B14F5A1E60034D72C /* UIKit.framework */,
+				3583D99D14F5A1E60034D72C /* Foundation.framework */,
+				3583D99F14F5A1E60034D72C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3583D9A114F5A1E60034D72C /* 001-YRDropdownView */ = {
+			isa = PBXGroup;
+			children = (
+				3583D9AA14F5A1E60034D72C /* ILAppDelegate.h */,
+				3583D9AB14F5A1E60034D72C /* ILAppDelegate.m */,
+				3583D9AD14F5A1E60034D72C /* ILViewController.h */,
+				3583D9AE14F5A1E60034D72C /* ILViewController.m */,
+				3583D9B014F5A1E60034D72C /* ILViewController.xib */,
+				3583D9A214F5A1E60034D72C /* Supporting Files */,
+			);
+			path = "001-YRDropdownView";
+			sourceTree = "<group>";
+		};
+		3583D9A214F5A1E60034D72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3583D9A314F5A1E60034D72C /* 001-YRDropdownView-Info.plist */,
+				3583D9A414F5A1E60034D72C /* InfoPlist.strings */,
+				3583D9A714F5A1E60034D72C /* main.m */,
+				3583D9A914F5A1E60034D72C /* 001-YRDropdownView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3583D99614F5A1E60034D72C /* 001-YRDropdownView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3583D9B514F5A1E60034D72C /* Build configuration list for PBXNativeTarget "001-YRDropdownView" */;
+			buildPhases = (
+				3583D99314F5A1E60034D72C /* Sources */,
+				3583D99414F5A1E60034D72C /* Frameworks */,
+				3583D99514F5A1E60034D72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-YRDropdownView";
+			productName = "001-YRDropdownView";
+			productReference = 3583D99714F5A1E60034D72C /* 001-YRDropdownView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3583D98E14F5A1E60034D72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3583D99114F5A1E60034D72C /* Build configuration list for PBXProject "001-YRDropdownView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3583D98C14F5A1E60034D72C;
+			productRefGroup = 3583D99814F5A1E60034D72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3583D99614F5A1E60034D72C /* 001-YRDropdownView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3583D99514F5A1E60034D72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3583D9A614F5A1E60034D72C /* InfoPlist.strings in Resources */,
+				3583D9B214F5A1E60034D72C /* ILViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3583D99314F5A1E60034D72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3583D9A814F5A1E60034D72C /* main.m in Sources */,
+				3583D9AC14F5A1E60034D72C /* ILAppDelegate.m in Sources */,
+				3583D9AF14F5A1E60034D72C /* ILViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3583D9A414F5A1E60034D72C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3583D9A514F5A1E60034D72C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3583D9B014F5A1E60034D72C /* ILViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3583D9B114F5A1E60034D72C /* en */,
+			);
+			name = ILViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3583D9B314F5A1E60034D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3583D9B414F5A1E60034D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3583D9B614F5A1E60034D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "001-YRDropdownView/001-YRDropdownView-Prefix.pch";
+				INFOPLIST_FILE = "001-YRDropdownView/001-YRDropdownView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3583D9B714F5A1E60034D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "001-YRDropdownView/001-YRDropdownView-Prefix.pch";
+				INFOPLIST_FILE = "001-YRDropdownView/001-YRDropdownView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3583D99114F5A1E60034D72C /* Build configuration list for PBXProject "001-YRDropdownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3583D9B314F5A1E60034D72C /* Debug */,
+				3583D9B414F5A1E60034D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3583D9B514F5A1E60034D72C /* Build configuration list for PBXNativeTarget "001-YRDropdownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3583D9B614F5A1E60034D72C /* Debug */,
+				3583D9B714F5A1E60034D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3583D98E14F5A1E60034D72C /* Project object */;
+}
