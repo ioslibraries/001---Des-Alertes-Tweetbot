@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class ILViewController;
+@class ILFriendsViewController;
 
 @interface ILAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ILViewController *viewController;
+@property (strong, nonatomic) ILFriendsViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navController;
 
 @end

@@ -13,8 +13,30 @@
 		3583D9A614F5A1E60034D72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3583D9A414F5A1E60034D72C /* InfoPlist.strings */; };
 		3583D9A814F5A1E60034D72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583D9A714F5A1E60034D72C /* main.m */; };
 		3583D9AC14F5A1E60034D72C /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583D9AB14F5A1E60034D72C /* ILAppDelegate.m */; };
-		3583D9AF14F5A1E60034D72C /* ILViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583D9AE14F5A1E60034D72C /* ILViewController.m */; };
-		3583D9B214F5A1E60034D72C /* ILViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3583D9B014F5A1E60034D72C /* ILViewController.xib */; };
+		3583D9BF14F5A3050034D72C /* dropdown-alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3583D9BD14F5A3050034D72C /* dropdown-alert@2x.png */; };
+		3583D9C014F5A3050034D72C /* dropdown-alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 3583D9BE14F5A3050034D72C /* dropdown-alert.png */; };
+		3583D9F614F5A4890034D72C /* ILFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583D9F414F5A4890034D72C /* ILFriendsViewController.m */; };
+		3583D9F714F5A4890034D72C /* ILFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3583D9F514F5A4890034D72C /* ILFriendsViewController.xib */; };
+		3583D9FB14F5A7BA0034D72C /* ILNewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583D9F914F5A7BA0034D72C /* ILNewFriendViewController.m */; };
+		3583D9FC14F5A7BA0034D72C /* ILNewFriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3583D9FA14F5A7BA0034D72C /* ILNewFriendViewController.xib */; };
+		35DCB0F214F6D220001B26F0 /* bg-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB0EA14F6D220001B26F0 /* bg-green.png */; };
+		35DCB0F314F6D220001B26F0 /* bg-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB0EB14F6D220001B26F0 /* bg-green@2x.png */; };
+		35DCB0F414F6D220001B26F0 /* bg-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB0EC14F6D220001B26F0 /* bg-red.png */; };
+		35DCB0F514F6D220001B26F0 /* bg-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB0ED14F6D220001B26F0 /* bg-red@2x.png */; };
+		35DCB0F614F6D220001B26F0 /* bg-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB0EE14F6D220001B26F0 /* bg-yellow.png */; };
+		35DCB0F714F6D220001B26F0 /* bg-yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB0EF14F6D220001B26F0 /* bg-yellow@2x.png */; };
+		35DCB0F814F6D220001B26F0 /* YRDropdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DCB0F114F6D220001B26F0 /* YRDropdownView.m */; };
+		35DCB10A14F6D64D001B26F0 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB0FF14F6D64D001B26F0 /* Blue.png */; };
+		35DCB10B14F6D64D001B26F0 /* Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB10014F6D64D001B26F0 /* Blue@2x.png */; };
+		35DCB10C14F6D64D001B26F0 /* MKInfoPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DCB10214F6D64D001B26F0 /* MKInfoPanel.m */; };
+		35DCB10D14F6D64D001B26F0 /* MKInfoPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB10314F6D64D001B26F0 /* MKInfoPanel.xib */; };
+		35DCB10E14F6D64D001B26F0 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB10414F6D64D001B26F0 /* Red.png */; };
+		35DCB10F14F6D64D001B26F0 /* Red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB10514F6D64D001B26F0 /* Red@2x.png */; };
+		35DCB11014F6D64D001B26F0 /* Tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB10614F6D64D001B26F0 /* Tick.png */; };
+		35DCB11114F6D64D001B26F0 /* Tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB10714F6D64D001B26F0 /* Tick@2x.png */; };
+		35DCB11214F6D64D001B26F0 /* Warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB10814F6D64D001B26F0 /* Warning.png */; };
+		35DCB11314F6D64D001B26F0 /* Warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DCB10914F6D64D001B26F0 /* Warning@2x.png */; };
+		35DCB11514F6D723001B26F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DCB11414F6D723001B26F0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +44,41 @@
 		3583D99B14F5A1E60034D72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3583D99D14F5A1E60034D72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3583D99F14F5A1E60034D72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3583D9A314F5A1E60034D72C /* 001-YRDropdownView-Info.plist */ = {isa = PBXFileReference; path = "001-YRDropdownView-Info.plist"; sourceTree = "<group>"; };
+		3583D9A314F5A1E60034D72C /* 001-YRDropdownView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "001-YRDropdownView-Info.plist"; sourceTree = "<group>"; };
 		3583D9A514F5A1E60034D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3583D9A714F5A1E60034D72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3583D9A914F5A1E60034D72C /* 001-YRDropdownView-Prefix.pch */ = {isa = PBXFileReference; path = "001-YRDropdownView-Prefix.pch"; sourceTree = "<group>"; };
-		3583D9AA14F5A1E60034D72C /* ILAppDelegate.h */ = {isa = PBXFileReference; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		3583D9A914F5A1E60034D72C /* 001-YRDropdownView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "001-YRDropdownView-Prefix.pch"; sourceTree = "<group>"; };
+		3583D9AA14F5A1E60034D72C /* ILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILAppDelegate.h; sourceTree = "<group>"; };
 		3583D9AB14F5A1E60034D72C /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
-		3583D9AD14F5A1E60034D72C /* ILViewController.h */ = {isa = PBXFileReference; path = ILViewController.h; sourceTree = "<group>"; };
-		3583D9AE14F5A1E60034D72C /* ILViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILViewController.m; sourceTree = "<group>"; };
-		3583D9B114F5A1E60034D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ILViewController.xib; sourceTree = "<group>"; };
+		3583D9BD14F5A3050034D72C /* dropdown-alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown-alert@2x.png"; sourceTree = "<group>"; };
+		3583D9BE14F5A3050034D72C /* dropdown-alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown-alert.png"; sourceTree = "<group>"; };
+		3583D9F314F5A4890034D72C /* ILFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILFriendsViewController.h; sourceTree = "<group>"; };
+		3583D9F414F5A4890034D72C /* ILFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILFriendsViewController.m; sourceTree = "<group>"; };
+		3583D9F514F5A4890034D72C /* ILFriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILFriendsViewController.xib; sourceTree = "<group>"; };
+		3583D9F814F5A7BA0034D72C /* ILNewFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILNewFriendViewController.h; sourceTree = "<group>"; };
+		3583D9F914F5A7BA0034D72C /* ILNewFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILNewFriendViewController.m; sourceTree = "<group>"; };
+		3583D9FA14F5A7BA0034D72C /* ILNewFriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILNewFriendViewController.xib; sourceTree = "<group>"; };
+		3583D9FD14F5A9300034D72C /* ILNewFriendViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILNewFriendViewDelegate.h; sourceTree = "<group>"; };
+		35DCB0EA14F6D220001B26F0 /* bg-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-green.png"; sourceTree = "<group>"; };
+		35DCB0EB14F6D220001B26F0 /* bg-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-green@2x.png"; sourceTree = "<group>"; };
+		35DCB0EC14F6D220001B26F0 /* bg-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-red.png"; sourceTree = "<group>"; };
+		35DCB0ED14F6D220001B26F0 /* bg-red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-red@2x.png"; sourceTree = "<group>"; };
+		35DCB0EE14F6D220001B26F0 /* bg-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-yellow.png"; sourceTree = "<group>"; };
+		35DCB0EF14F6D220001B26F0 /* bg-yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-yellow@2x.png"; sourceTree = "<group>"; };
+		35DCB0F014F6D220001B26F0 /* YRDropdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRDropdownView.h; sourceTree = "<group>"; };
+		35DCB0F114F6D220001B26F0 /* YRDropdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRDropdownView.m; sourceTree = "<group>"; };
+		35DCB0FF14F6D64D001B26F0 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		35DCB10014F6D64D001B26F0 /* Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue@2x.png"; sourceTree = "<group>"; };
+		35DCB10114F6D64D001B26F0 /* MKInfoPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKInfoPanel.h; sourceTree = "<group>"; };
+		35DCB10214F6D64D001B26F0 /* MKInfoPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKInfoPanel.m; sourceTree = "<group>"; };
+		35DCB10314F6D64D001B26F0 /* MKInfoPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKInfoPanel.xib; sourceTree = "<group>"; };
+		35DCB10414F6D64D001B26F0 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		35DCB10514F6D64D001B26F0 /* Red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red@2x.png"; sourceTree = "<group>"; };
+		35DCB10614F6D64D001B26F0 /* Tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tick.png; sourceTree = "<group>"; };
+		35DCB10714F6D64D001B26F0 /* Tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tick@2x.png"; sourceTree = "<group>"; };
+		35DCB10814F6D64D001B26F0 /* Warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warning.png; sourceTree = "<group>"; };
+		35DCB10914F6D64D001B26F0 /* Warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warning@2x.png"; sourceTree = "<group>"; };
+		35DCB11414F6D723001B26F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35DCB11514F6D723001B26F0 /* QuartzCore.framework in Frameworks */,
 				3583D99C14F5A1E60034D72C /* UIKit.framework in Frameworks */,
 				3583D99E14F5A1E60034D72C /* Foundation.framework in Frameworks */,
 				3583D9A014F5A1E60034D72C /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +99,7 @@
 		3583D98C14F5A1E60034D72C = {
 			isa = PBXGroup;
 			children = (
+				35DCB11414F6D723001B26F0 /* QuartzCore.framework */,
 				3583D9A114F5A1E60034D72C /* 001-YRDropdownView */,
 				3583D99A14F5A1E60034D72C /* Frameworks */,
 				3583D99814F5A1E60034D72C /* Products */,
@@ -77,11 +127,18 @@
 		3583D9A114F5A1E60034D72C /* 001-YRDropdownView */ = {
 			isa = PBXGroup;
 			children = (
+				35DCB0FE14F6D64D001B26F0 /* MKInfoBundle */,
+				35DCB0E914F6D220001B26F0 /* YRDropdownView */,
+				3583D9BC14F5A2F60034D72C /* images */,
 				3583D9AA14F5A1E60034D72C /* ILAppDelegate.h */,
 				3583D9AB14F5A1E60034D72C /* ILAppDelegate.m */,
-				3583D9AD14F5A1E60034D72C /* ILViewController.h */,
-				3583D9AE14F5A1E60034D72C /* ILViewController.m */,
-				3583D9B014F5A1E60034D72C /* ILViewController.xib */,
+				3583D9F314F5A4890034D72C /* ILFriendsViewController.h */,
+				3583D9F414F5A4890034D72C /* ILFriendsViewController.m */,
+				3583D9F514F5A4890034D72C /* ILFriendsViewController.xib */,
+				3583D9FD14F5A9300034D72C /* ILNewFriendViewDelegate.h */,
+				3583D9F814F5A7BA0034D72C /* ILNewFriendViewController.h */,
+				3583D9F914F5A7BA0034D72C /* ILNewFriendViewController.m */,
+				3583D9FA14F5A7BA0034D72C /* ILNewFriendViewController.xib */,
 				3583D9A214F5A1E60034D72C /* Supporting Files */,
 			);
 			path = "001-YRDropdownView";
@@ -96,6 +153,48 @@
 				3583D9A914F5A1E60034D72C /* 001-YRDropdownView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3583D9BC14F5A2F60034D72C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3583D9BD14F5A3050034D72C /* dropdown-alert@2x.png */,
+				3583D9BE14F5A3050034D72C /* dropdown-alert.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		35DCB0E914F6D220001B26F0 /* YRDropdownView */ = {
+			isa = PBXGroup;
+			children = (
+				35DCB0EA14F6D220001B26F0 /* bg-green.png */,
+				35DCB0EB14F6D220001B26F0 /* bg-green@2x.png */,
+				35DCB0EC14F6D220001B26F0 /* bg-red.png */,
+				35DCB0ED14F6D220001B26F0 /* bg-red@2x.png */,
+				35DCB0EE14F6D220001B26F0 /* bg-yellow.png */,
+				35DCB0EF14F6D220001B26F0 /* bg-yellow@2x.png */,
+				35DCB0F014F6D220001B26F0 /* YRDropdownView.h */,
+				35DCB0F114F6D220001B26F0 /* YRDropdownView.m */,
+			);
+			path = YRDropdownView;
+			sourceTree = "<group>";
+		};
+		35DCB0FE14F6D64D001B26F0 /* MKInfoBundle */ = {
+			isa = PBXGroup;
+			children = (
+				35DCB0FF14F6D64D001B26F0 /* Blue.png */,
+				35DCB10014F6D64D001B26F0 /* Blue@2x.png */,
+				35DCB10114F6D64D001B26F0 /* MKInfoPanel.h */,
+				35DCB10214F6D64D001B26F0 /* MKInfoPanel.m */,
+				35DCB10314F6D64D001B26F0 /* MKInfoPanel.xib */,
+				35DCB10414F6D64D001B26F0 /* Red.png */,
+				35DCB10514F6D64D001B26F0 /* Red@2x.png */,
+				35DCB10614F6D64D001B26F0 /* Tick.png */,
+				35DCB10714F6D64D001B26F0 /* Tick@2x.png */,
+				35DCB10814F6D64D001B26F0 /* Warning.png */,
+				35DCB10914F6D64D001B26F0 /* Warning@2x.png */,
+			);
+			path = MKInfoBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +248,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				3583D9A614F5A1E60034D72C /* InfoPlist.strings in Resources */,
-				3583D9B214F5A1E60034D72C /* ILViewController.xib in Resources */,
+				3583D9BF14F5A3050034D72C /* dropdown-alert@2x.png in Resources */,
+				3583D9C014F5A3050034D72C /* dropdown-alert.png in Resources */,
+				3583D9F714F5A4890034D72C /* ILFriendsViewController.xib in Resources */,
+				3583D9FC14F5A7BA0034D72C /* ILNewFriendViewController.xib in Resources */,
+				35DCB0F214F6D220001B26F0 /* bg-green.png in Resources */,
+				35DCB0F314F6D220001B26F0 /* bg-green@2x.png in Resources */,
+				35DCB0F414F6D220001B26F0 /* bg-red.png in Resources */,
+				35DCB0F514F6D220001B26F0 /* bg-red@2x.png in Resources */,
+				35DCB0F614F6D220001B26F0 /* bg-yellow.png in Resources */,
+				35DCB0F714F6D220001B26F0 /* bg-yellow@2x.png in Resources */,
+				35DCB10A14F6D64D001B26F0 /* Blue.png in Resources */,
+				35DCB10B14F6D64D001B26F0 /* Blue@2x.png in Resources */,
+				35DCB10D14F6D64D001B26F0 /* MKInfoPanel.xib in Resources */,
+				35DCB10E14F6D64D001B26F0 /* Red.png in Resources */,
+				35DCB10F14F6D64D001B26F0 /* Red@2x.png in Resources */,
+				35DCB11014F6D64D001B26F0 /* Tick.png in Resources */,
+				35DCB11114F6D64D001B26F0 /* Tick@2x.png in Resources */,
+				35DCB11214F6D64D001B26F0 /* Warning.png in Resources */,
+				35DCB11314F6D64D001B26F0 /* Warning@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +279,10 @@
 			files = (
 				3583D9A814F5A1E60034D72C /* main.m in Sources */,
 				3583D9AC14F5A1E60034D72C /* ILAppDelegate.m in Sources */,
-				3583D9AF14F5A1E60034D72C /* ILViewController.m in Sources */,
+				3583D9F614F5A4890034D72C /* ILFriendsViewController.m in Sources */,
+				3583D9FB14F5A7BA0034D72C /* ILNewFriendViewController.m in Sources */,
+				35DCB0F814F6D220001B26F0 /* YRDropdownView.m in Sources */,
+				35DCB10C14F6D64D001B26F0 /* MKInfoPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +295,6 @@
 				3583D9A514F5A1E60034D72C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3583D9B014F5A1E60034D72C /* ILViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3583D9B114F5A1E60034D72C /* en */,
-			);
-			name = ILViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,6 +384,7 @@
 				3583D9B714F5A1E60034D72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

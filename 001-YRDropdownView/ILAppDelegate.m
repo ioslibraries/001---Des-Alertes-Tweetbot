@@ -8,26 +8,32 @@
 
 #import "ILAppDelegate.h"
 
-#import "ILViewController.h"
+#import "ILFriendsViewController.h"
 
 @implementation ILAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize navController = _navController;
 
 - (void)dealloc
 {
     [_window release];
     [_viewController release];
+    [_navController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
     // Override point for customization after application launch.
-    self.viewController = [[[ILViewController alloc] initWithNibName:@"ILViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    self.viewController = [[[ILFriendsViewController alloc] initWithNibName:@"ILFriendsViewController" bundle:nil] autorelease];
+    
+    self.navController = [[[UINavigationController alloc] initWithRootViewController:self.viewController] autorelease];
+    
+    self.window.rootViewController = self.navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
